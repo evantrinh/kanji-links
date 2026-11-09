@@ -1,0 +1,8 @@
+{
+	"private": true,
+	"workspaces": ["core", "web"],
+	"scripts": {
+		"dev": "npm run dev -w web",
+		"test": "npm test -w core"
+	}
+}
